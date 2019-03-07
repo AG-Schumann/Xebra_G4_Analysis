@@ -1,0 +1,12 @@
+optPhot_1e6_noscint_T=0.80_R=0.99
+
+LCE_All    = 24.02 %
+LCE_Top    =  2.65 %
+LCE_Bottom = 21.37 %
+
+DE_All     =  7.15 %
+DE_Top     =  0.56 %
+DE_Bottom  =  6.6 %
+
+LY_All     =  2.9 pe/keV
+LY0_All    =  4.89 pe/keV

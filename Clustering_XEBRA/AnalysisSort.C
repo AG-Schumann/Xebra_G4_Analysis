@@ -20,6 +20,7 @@ AnalysisSort::AnalysisSort(TString  InputFilename,TString  OutputFilename) : inT
 
 AnalysisSort::~AnalysisSort(){
 }
+
 void AnalysisSort::Loop(TString  InputFilename,TString  OutputFilename) {
     
     // Load Input file and Input Tree //
@@ -70,9 +71,9 @@ void AnalysisSort::Loop(TString  InputFilename,TString  OutputFilename) {
         
         //PreCluster Arrays //
         vector<TempArrays> PreCluster(tempMax);
-        //We have to inicialize this vector somehow per event to avoid the problem with the sorting. Just in the coordinate Z 
+        //We have to initialize this vector somehow per event to avoid the problem with the sorting. Just in the coordinate Z 
         for(int p=0;p<tempMax;p++){
-        PreCluster[p].Temp_z = 100000.0; //something super big!!!
+        PreCluster[p].Temp_z = 10000.0; //something super big!!!
         }
 
         // PleCluster Array //
@@ -173,7 +174,7 @@ void AnalysisSort::Loop(TString  InputFilename,TString  OutputFilename) {
         typepri = type_pri;
 
         // Save in the tree clusterized events //
-        if( n_scatters > 1 ) continue;   //This is to select only single scattering events 
+        //if( n_scatters > 1 ) continue;   //This is to select only single scattering events 
  
         for( Int_t out = 0; out<=nOut ; out++){ 
                 Xp = FinalArray[out].Temp_x;
@@ -194,7 +195,7 @@ void AnalysisSort::Loop(TString  InputFilename,TString  OutputFilename) {
 }
 
 bool AnalysisSort::MinimumSeparation(Float_t z_pos1, Float_t z_pos2){
-    Double_t Separation_Z = 3.; // in mm
+    Double_t Separation_Z = 3.; // in mm, first try with 3 mm
     Double_t AverageZ = (z_pos1+z_pos2)/2.0;
     Double_t AvenrageZ_RefToTheBottom = AverageZ + 71.35; // in mm ( O would be the bottom part of the TPC )
     Double_t AvenrageZ_RefToTheBottom_cm = (AverageZ + 71.35)/10.0;  // in cm 
@@ -210,9 +211,9 @@ bool AnalysisSort::MinimumSeparation(Float_t z_pos1, Float_t z_pos2){
 }
 
 bool AnalysisSort::InsideFiducialVolume(Float_t x_pos = 0., Float_t y_pos = 0., Float_t z_pos = 0.){
-    Float_t SensitiveVolumeRadius = 35.0 ; // In mm, standard tpc size
-    Float_t SensitiveVolumeLength = 71.2 ; // In mm, standard tpc size
-    Float_t Zoffset = -71.35; // In mm 
+    Float_t SensitiveVolumeRadius = 35.0 ; // In mm, radius sensitive volume, standard tpc size
+    Float_t SensitiveVolumeLength = 71.2 ; // In mm, length sensitive volume, standard tpc size
+    Float_t Zoffset = -71.35; // In mm, position lower edge sensitve volume
     bool output = false;
     
     if(sqrt(x_pos*x_pos + y_pos* y_pos) < SensitiveVolumeRadius){

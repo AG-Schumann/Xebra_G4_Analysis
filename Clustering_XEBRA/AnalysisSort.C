@@ -174,7 +174,7 @@ void AnalysisSort::Loop(TString  InputFilename,TString  OutputFilename) {
         typepri = type_pri;
 
         // Save in the tree clusterized events //
-        //if( n_scatters > 1 ) continue;   //This is to select only single scattering events 
+        if( n_scatters > 1 ) continue;   //This is to select only single scattering events 
  
         for( Int_t out = 0; out<=nOut ; out++){ 
                 Xp = FinalArray[out].Temp_x;

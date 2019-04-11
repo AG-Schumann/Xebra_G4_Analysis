@@ -1,0 +1,12 @@
+optPhot_S2_1e6
+
+LCE_All    = 50.29 %
+LCE_Top    =  25.38 %
+LCE_Bottom = 24.91 %
+
+DE_All     =  13.02 %
+DE_Top     =  5.33 %
+DE_Bottom  =  7.69 %
+
+LY_All     =  5.28 pe/keV
+LY0_All    =  8.89 pe/keV

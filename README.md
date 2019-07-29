@@ -1,5 +1,5 @@
 # Xebra_G4_Analysis
-Analysis for the Geant4 MC simulation of Xebra
+Analysis for the Geant4 MC simulation of Xebra and corresponding measurements.
 
 ## Instructions for git:
 -  git clone [-b "BRANCH_NAME"] https://github.com/AG-Schumann/Xebra_G4_Analysis.git

@@ -1,0 +1,4 @@
+Evalutation of best performing model:
+[0.0003740356083936058, 0.0003740356083936058]
+Best performing model chosen hyper-parameters:
+{'optimizer': 'adam'}

@@ -1,0 +1,4 @@
+Optimization parameters:
+
+optimizer={{choice(['rmsprop', 'adam', 'sgd'])}} -> 'adam'
+

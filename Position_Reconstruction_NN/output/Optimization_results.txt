@@ -1,4 +1,4 @@
 Evalutation of best performing model:
-[0.00038219700664514675, 0.00038219700664514675]
+[0.0003727007008017972, 0.0003727007008017972]
 Best performing model chosen hyper-parameters:
-{'optimizer': 'adam'}
+{'Dense': 128, 'Dense_1': 64}

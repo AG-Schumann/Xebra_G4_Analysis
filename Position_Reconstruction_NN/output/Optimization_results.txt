@@ -1,4 +1,4 @@
 Evalutation of best performing model:
-[0.0003727007008017972, 0.0003727007008017972]
+[0.00037690408617956566, 0.00037690408617956566]
 Best performing model chosen hyper-parameters:
-{'Dense': 128, 'Dense_1': 64}
+{'Activation': 'relu', 'Activation_1': 'relu'}

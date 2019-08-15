@@ -1,4 +1,16 @@
 Optimization parameters:
 
-optimizer={{choice(['rmsprop', 'adam', 'sgd'])}} -> 'adam'
-
+optimizer={{choice(['rmsprop', 'adam', 'sgd'])}}
+  -> 'adam'
+model.add(Dense({{choice([8, 16, 32, 64, 128, 256, 512, 1024])}}, input_shape=(pmts,)))
+  -> 256, however stay at 64 since no significant improvement but rather fear overtraining
+model.add(Dense({{choice([8, 16, 32, 64, 128, 256, 512, 1024])}}))
+  -> 1024, however stay at 64 since no significant improvement but rather fear overtraining
+model.add(Activation({{choice(['relu', 'sigmoid', 'linear', 'softplus', 'tanh'])}}))
+  -> 'relu'
+model.add(Activation({{choice(['relu', 'sigmoid', 'linear', 'softplus', 'tanh'])}}))
+  -> 'relu'
+model.add(Dropout({{choice([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])}}))
+  -> 0.0
+model.add(Dropout({{choice([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])}}))
+  -> 0.0

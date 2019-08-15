@@ -1,4 +1,4 @@
 Evalutation of best performing model:
-[0.0003727007008017972, 0.0003727007008017972]
+[0.0003713685094146058, 0.0003713685094146058]
 Best performing model chosen hyper-parameters:
-{'Dense': 128, 'Dense_1': 64}
+{'Dropout': 0.0, 'Dropout_1': 0.0}

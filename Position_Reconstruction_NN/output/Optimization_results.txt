@@ -1,4 +1,4 @@
 Evalutation of best performing model:
-[0.0003713685094146058, 0.0003713685094146058]
+[0.00037361418558983135, 0.00037361418558983135]
 Best performing model chosen hyper-parameters:
-{'Dropout': 0.0, 'Dropout_1': 0.0}
+{'Dropout': 0.0, 'Dropout_1': 0.01}

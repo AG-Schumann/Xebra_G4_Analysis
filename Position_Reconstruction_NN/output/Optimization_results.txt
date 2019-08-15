@@ -1,4 +1,4 @@
 Evalutation of best performing model:
-[0.00037690408617956566, 0.00037690408617956566]
+[0.0003713685094146058, 0.0003713685094146058]
 Best performing model chosen hyper-parameters:
-{'Activation': 'relu', 'Activation_1': 'relu'}
+{'Dropout': 0.0, 'Dropout_1': 0.0}

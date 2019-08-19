@@ -1,0 +1,7 @@
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/edit_cache.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/install/strip.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/XebraMCProcessor.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/list_install_components.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/install/local.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/rebuild_cache.dir
+/sc/userdata/jd1076/MCProcessor/CMakeFiles/install.dir

@@ -21,12 +21,13 @@ model.add(Dropout({{choice([0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])}}
 model.add(Dropout({{choice([0.0, 0.01, 0.02, 0.03, 0.04, 0.05])}}))
   -> 0.0
 model.add(Dropout({{choice([0.0, 0.01, 0.02, 0.03, 0.04, 0.05])}}))
-  -> 0.1, however stay at 0.0 since no significant improvement
+  -> 0.01, however stay at 0.0 since no significant improvement
   
 epochs={{choice([10, 30, 50, 100])}}
-  -> 
+  -> 100
 batch_size={{choice([8, 16, 32, 64, 128, 256, 512, 1024])}}
-  -> 
+  -> 128
 validation_split={{choice([0.1, 0.2, 0.3, 0.5])}}
-  -> 
+  -> 0.3
 
+0.0001, 0.0002, 0.0003, 0.0005, 0.001, 0.002, 0.003, 0.005, 0.01, 0.02, 0.03, 0.05, 0.1, 0.2, 0.3, 0.5

@@ -37,7 +37,7 @@ optimizer=Adam(lr={{choice([0.0001, 0.0002, 0.0003, 0.0005, 0.001, 0.002, 0.003,
 
 manually:
 
-number layers: 1, 2 -> 2
+number layers: 1, 2, 3 -> 2
 
 activation:    'relu', 'sigmoid', 'linear', 'softplus', 'tanh', 'elu', 'softmax', 'selu', 'softsign', 'hard_sigmoid', 'exponential'
 

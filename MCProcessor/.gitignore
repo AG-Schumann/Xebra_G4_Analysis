@@ -1,1 +1,6 @@
+# ignore all ROOT Files
+*.root
+*.root_GEN
+*.root_DET
+*.root_PHYS
 proc/*.root

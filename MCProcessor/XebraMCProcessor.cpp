@@ -44,7 +44,7 @@ int main(int argc, char **argv)
         cout << "Command line arguments not correctly parsed!" << endl;
         usage();
     }
-    TString LocalDir = "/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/"; 
+    TString LocalDir = "/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/"; 
     TString long_InputFile = Working_Dir + InputFilename + ".root";
     TString OutputDir = LocalDir + "proc" + "/";
     TString OutputRoot = OutputDir + InputFilename + "_Proc.root";

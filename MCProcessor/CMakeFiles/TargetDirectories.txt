@@ -1,7 +1,7 @@
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install/strip.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/edit_cache.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/XebraMCProcessor.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/list_install_components.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install/local.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/rebuild_cache.dir
-/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install/strip.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/edit_cache.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/XebraMCProcessor.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/list_install_components.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install/local.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/rebuild_cache.dir
+/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/CMakeFiles/install.dir

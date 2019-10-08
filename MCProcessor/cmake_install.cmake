@@ -1,4 +1,4 @@
-# Install script for directory: /home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor
+# Install script for directory: /home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XebraMCProcessor"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/XebraMCProcessor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/XebraMCProcessor")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XebraMCProcessor" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XebraMCProcessor")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XebraMCProcessor"
-         OLD_RPATH "/usr/local/root-6.10.06/root-6.10.06-build/lib:"
+         OLD_RPATH "/home/alex/build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/XebraMCProcessor")
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ab602/Thesis/Xebra_G4_Analysis/MCProcessor/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/alex/Thesis-Copy/Xebra_G4_Analysis/MCProcessor/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

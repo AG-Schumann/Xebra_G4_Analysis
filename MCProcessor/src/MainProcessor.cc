@@ -257,7 +257,10 @@ void MainProcessor::Loop(TString  InputFilename, TString  OutputFilename) {
 		process = creaproc;
 		Edtot = etot;
 		LScintEdtot = LScint_etot;
+		//// use if condition for single scatter cut:
+		//if(nScat == 1){
 		outTree -> Fill();
+		//}
 
 	
 	} //end of the loop over the number of entries in the tree 
